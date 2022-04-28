@@ -8,9 +8,12 @@ var respuesta = prompt("Ingrese su nombre.", ["nombre"]);
 console.log(respuesta);
 
 document.write(`
-
-    <h2>Nombre:</h2>
-    <h1>${respuesta}</h1>
-    
+    <h1>${respuesta}</h1>   
 `);
 
+// Creo variables y las inicializo.
+
+var cadena = "texto";
+var numero = 23;
+var booleano = true;
+var decimal = 5.8;
